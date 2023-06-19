@@ -1,0 +1,12 @@
+[package]
+org = "ballerinax"
+name = "testMetadata"
+version = "1.0.1"
+export = ["testMetadata.config","testMetadata.constants","testMetadata.handlers","testMetadata.models","testMetadata.samples"]
+distribution = "2201.5.0"
+authors = ["Ballerina"]
+keywords = ["Healthcare","FHIR","Metadata"]
+repository = "https://github.com/ballerina-platform/module-ballerinax-health.fhir.templates"
+
+[build-options]
+observabilityIncluded = true
