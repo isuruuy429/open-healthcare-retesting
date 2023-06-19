@@ -98,6 +98,23 @@ isolated function getPatient(string id) returns r4:Patient|r4:FHIRError? {
                         }
                     }
                 ]
+            },
+            "__name" : {
+                id: "name",
+                extension: [
+                    {
+                        url: "http://hl7.org/fhir/StructureDefinition/patient-name",
+                        valueHumanName: {
+                            use: "official",
+                            text: "Peter James Chalmers",
+                            family: "Chalmers",
+                            given: [
+                                "Peter",
+                                "James"
+                            ]
+                        }
+                    }
+                ]
             }
             
         };
